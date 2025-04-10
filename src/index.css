@@ -11,3 +11,215 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+/* DEFAULTS  */
+
+h1, h4, h5, h3, p,ul{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+small {
+  color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  margin: 10px 0px 10px 0px;
+}
+
+a {
+  all: unset;
+  cursor: pointer; /* optional: makes it behave like a link again */
+}
+
+button {
+  background-color: black;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border-radius: 8px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+/* EDITED  */
+
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  justify-content: space-between;
+}
+
+.col-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+#nav-ul-list {
+  display: flex;
+  list-style-type: none;
+  gap: 3vw;
+}
+
+/* THE MAIN  */
+main {
+  display: flex;
+  flex-direction: column;  /* Stack elements vertically */
+  gap: 9rem;
+  margin-top: 3vh;
+}
+
+#hero-section-container {
+  display: flex;
+  gap: 10vw;
+  align-items: center;
+  margin: 40px 50px 10px 50px;
+}
+
+#hero-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+#hero-image {
+  width: 25vw;
+  height: 50vh;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+#highlights-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3vh;
+
+}
+
+.highlights-images {
+  width: 20vw;
+  height: 25vh;
+  border-radius: 0px 10px;
+}
+
+#highlights-section {
+  display: flex;
+  justify-content: center;
+}
+
+#highlights-article-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#order-delivery {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+#profile-image {
+  border-radius: 100%;
+  width: 9vw;
+ 
+}
+
+#testimonial-card-content {
+  width: 15vw;
+}
+
+#testimonial-section-container {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+#testimonial-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3vw;
+  margin: 30px 0px 30px 0px;
+}
+
+#about-container {
+  display: flex;
+  gap: 9vw;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#about-content {
+  width: 40vw;
+}
+
+
+
+#about-first-image {
+  width: 20vw;
+  height: 50vh;
+}
+
+#about-second-image {
+  width: 20vw;
+  margin: 5vw;
+  height: 55vh;
+  position: absolute;
+}
+
+footer {
+  display: flex;
+  gap: 10vw;
+  margin-top: 30vh;
+  margin-bottom: 7vh;
+  justify-content: center;
+}
+
+#little-lemon-footer-logo {
+  width: 8vw;
+  height: 29vh;
+}
+
+#under-development-container {
+  display: flex;
+  justify-content: center;
+};
